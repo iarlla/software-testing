@@ -314,3 +314,52 @@ Framework de automação de testes com uma sintaxe baseada em palavras-chave, id
 ---
 
 ## 📂 Estrutura do Repositório
+├── README.md
+├── .github/                 # Opcional: Para GitHub Actions, etc.
+│   └── workflows/
+│       └── ci.yml
+├── junit-example/           # Exemplo de projeto JUnit (Java/Maven)
+│   ├── pom.xml
+│   └── src/
+│       ├── main/
+│       └── test/
+│           └── java/
+│               └── com/
+│                   └── example/
+│                       └── MyMathTest.java
+├── jest-example/            # Exemplo de projeto Jest (JavaScript/Node.js)
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── sum.js
+│   └── sum.test.js
+├── cypress-example/         # Exemplo de projeto Cypress (JavaScript/Node.js)
+│   ├── package.json
+│   ├── cypress.config.js
+│   └── cypress/
+│       ├── e2e/
+│       │   └── my_first_test.cy.js
+│       └── support/
+│           └── commands.js
+│           └── e2e.js
+├── robotframework-example/  # Exemplo de projeto Robot Framework (Python)
+│   ├── Google Search.robot
+│   └── requirements.txt     # Para dependências Python específicas
+└── .gitignore               # Arquivos e pastas a serem ignorados pelo Git
+
+---
+
+## 🤝 Contribuição
+
+Sinta-se à vontade para contribuir com novos exemplos, melhorias na documentação ou correções.
+1.  Faça um fork do repositório.
+2.  Crie uma nova branch (`git checkout -b feature/sua-feature`).
+3.  Faça suas alterações e commit (`git commit -m 'feat: Minha nova feature'`).
+4.  Envie para a branch (`git push origin feature/sua-feature`).
+5.  Abra um Pull Request.
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
