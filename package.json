@@ -1,0 +1,24 @@
+{
+  "name": "software-testing",
+  "version": "1.0.0",
+  "description": "Este repositório apresenta a automação de testes web para a aplicação [Sauce Demo (v1)](https://www.saucedemo.com/v1/), demonstrando habilidades em testes de interface (UI) e boas práticas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iarlla/software-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iarlla/software-testing/issues"
+  },
+  "homepage": "https://github.com/iarlla/software-testing#readme",
+  "devDependencies": {
+    "cypress": "^14.4.1",
+    "jest": "^30.0.0"
+  }
+}
