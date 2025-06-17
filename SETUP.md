@@ -1,10 +1,4 @@
-# 🧪 Repositório de Casos de Teste de Software
-
-Este repositório contém exemplos e configurações para testes de software utilizando diversas ferramentas, abrangendo desde testes unitários até testes end-to-end (E2E). O objetivo é demonstrar a aplicação prática de cada ferramenta em cenários reais.
-
----
-
-## 🚀 Preparação do Ambiente
+# 🚀 Preparação do Ambiente
 
 Antes de executar os testes, é necessário configurar seu ambiente de desenvolvimento. Siga os passos abaixo para garantir que todas as dependências estejam instaladas e configuradas corretamente.
 
